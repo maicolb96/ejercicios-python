@@ -1,4 +1,4 @@
-
+from clases.vehiculo import Vehiculo
 import os
 
 """

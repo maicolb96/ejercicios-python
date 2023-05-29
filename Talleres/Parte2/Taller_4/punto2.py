@@ -1,4 +1,4 @@
-from automovil import Automovil
+from clases.automovil import Automovil
 import os
 
 """
@@ -10,4 +10,7 @@ número de puertas.
 """
 os.system('cls')
 auto = Automovil("Chevi","Spark",2019,4)
-print(auto.obtener_info())
+info = auto.obtener_info()
+
+print("Información del automovil")
+for key in info.keys(): print(f"{key}:{info[key]}")
