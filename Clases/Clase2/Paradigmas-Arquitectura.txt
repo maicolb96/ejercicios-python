@@ -1,0 +1,23 @@
+Paradigmas de Programación (Estilo)
+
+1. Estructurado
+2. Funcional
+3. Orientado a Objetos
+4. Modular
+5. Reactivo
+
+Arquitecturas (Plantilla)
+
+1. Capas
+2. Modelo Vista Controlador MVC
+3. Modelo Vista Presentador MVP
+4. SOAP
+
+Patrones de Diseño de Software más Usados (Orden de Código)
+
+1. Singleton
+2. Mediator
+3. MVC
+4. Observer
+5. Adapter
+6. Flux
