@@ -3,6 +3,9 @@ class Animal:
         self.nombre = nombre
         self.edad = edad
 
-    def hacer_ruido(self):
-        animal = {"Nombre":self.nombre,"Edad":self.edad, "Ruido": "..."}
+    def info_animal(self):
+        animal = {"Nombre":self.nombre,"Edad":self.edad, "Ruido": self.hacer_ruido()}
         return animal
+    
+    def hacer_ruido(self):
+        return "..."

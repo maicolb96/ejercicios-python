@@ -14,7 +14,7 @@ for key in detalle.keys(): detalle[key] = input(f"Ingrese {key}: ")
 os.system('cls')
 
 perro = Perro(detalle["el nombre"],detalle["la edad"],detalle["la raza"])
-info = perro.hacer_ruido()
+info = perro.info_animal()
 
 print("Este algoritmo crea un objeto perro a partir de la instancia de una clase Animal.\n")
 print("Información del Perro")
